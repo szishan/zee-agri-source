@@ -45,3 +45,561 @@ const IPM=[
 {name:bi('Use physical & botanical options','যান্ত্রিক ও উদ্ভিদজাত ব্যবস্থা'),text:bi('Remove egg masses and affected material where practical. Use nets, fruit bagging and species-appropriate traps. Use registered botanical products according to their labels.','সম্ভব হলে ডিমের গুচ্ছ ও আক্রান্ত অংশ সরান। নেট, ফল ব্যাগিং ও প্রজাতি উপযোগী ফাঁদ ব্যবহার করুন। নিবন্ধিত উদ্ভিদজাত পণ্য লেবেল মেনে নিন।')},
 {name:bi('Decide, act & review','সিদ্ধান্ত, ব্যবস্থা ও মূল্যায়ন'),text:bi('Ask a local extension adviser whether intervention is needed. If a pesticide is justified, use the registered crop–pest label and review the field afterwards.','ব্যবস্থা প্রয়োজন কি না স্থানীয় কৃষি পরামর্শকের কাছে জানুন। বালাইনাশক প্রয়োজন হলে নিবন্ধিত ফসল-বালাইয়ের লেবেল মানুন এবং পরে জমি পর্যবেক্ষণ করুন।')}
 ];
+
+// Crop catalogue: general guidance; local planting windows vary.
+Object.assign(CROP_EXTRA, {
+  "potato": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "cabbage": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "cauliflower": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "cucumber": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "pumpkin": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "papaya": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "zucchini": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "eggplant": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "okra": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "bottle-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "bitter-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "ridge-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "sponge-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "snake-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "ash-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "pointed-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "spiny-gourd": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "yardlong-bean": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "hyacinth-bean": {
+    "season": {
+      "en": "Confirm the local planting season",
+      "bn": "স্থানীয় রোপণের মৌসুম জেনে নিন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "peas": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "radish": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "carrot": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "turnip": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "broccoli": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "spinach": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "red-amaranth": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "stem-amaranth": {
+    "season": {
+      "en": "Warm season; variety and location dependent",
+      "bn": "উষ্ণ মৌসুম; জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "malabar-spinach": {
+    "season": {
+      "en": "Variety and location dependent",
+      "bn": "জাত ও এলাকাভেদে ভিন্ন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Plan space and suitable support for climbing growth. Inspect leaves and fruit regularly and use local crop-specific advice.",
+      "bn": "লতানো গাছের জন্য জায়গা ও উপযোগী মাচার পরিকল্পনা করুন। পাতা ও ফল নিয়মিত দেখুন এবং ফসলভিত্তিক স্থানীয় পরামর্শ নিন।"
+    },
+    "icon": "leaf"
+  },
+  "water-spinach": {
+    "season": {
+      "en": "Confirm the local planting season",
+      "bn": "স্থানীয় রোপণের মৌসুম জেনে নিন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "taro": {
+    "season": {
+      "en": "Confirm the local planting season",
+      "bn": "স্থানীয় রোপণের মৌসুম জেনে নিন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "sweet-potato": {
+    "season": {
+      "en": "Confirm the local planting season",
+      "bn": "স্থানীয় রোপণের মৌসুম জেনে নিন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "moringa": {
+    "season": {
+      "en": "Confirm the local planting season",
+      "bn": "স্থানীয় রোপণের মৌসুম জেনে নিন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "onion": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "garlic": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "coriander": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  },
+  "lettuce": {
+    "season": {
+      "en": "Mainly cool season; check local varieties",
+      "bn": "প্রধানত শীতকাল; স্থানীয় উপযোগী জাত বাছুন"
+    },
+    "soil": {
+      "en": "Choose suitable land and manage soil moisture for the crop and variety.",
+      "bn": "ফসল ও জাত অনুযায়ী উপযোগী জমি বেছে মাটির আর্দ্রতা বজায় রাখুন।"
+    },
+    "care": {
+      "en": "Use healthy planting material, inspect the crop regularly and follow local advice for nutrients and harvest.",
+      "bn": "সুস্থ রোপণ উপকরণ নিন, নিয়মিত গাছ দেখুন এবং পুষ্টি ও সংগ্রহে স্থানীয় পরামর্শ অনুসরণ করুন।"
+    },
+    "icon": "leaf"
+  }
+});
+const CROP_IMAGES = {
+  "rice": "images/crops/web/rice.jpg",
+  "wheat": "images/crops/web/wheat.jpg",
+  "maize": "images/crops/web/maize.jpg",
+  "chili": "images/crops/web/chili.jpg",
+  "tomato": "images/crops/web/tomato.jpg",
+  "potato": "images/crops/web/potato.jpg",
+  "cabbage": "images/crops/web/cabbage.jpg",
+  "cauliflower": "images/crops/web/cauliflower.jpg",
+  "cucumber": "images/crops/web/cucumber.jpg",
+  "pumpkin": "images/crops/web/pumpkin.jpg",
+  "papaya": "images/crops/web/papaya.jpg",
+  "zucchini": "images/crops/web/zucchini.jpg"
+};
