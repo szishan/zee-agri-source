@@ -2,8 +2,8 @@ import assert from 'node:assert/strict';
 import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
-for(const f of ['cropData.js','productData.js','pestData.js','data.js','libraryData.js','guideData.js'])vm.runInContext(readFileSync(''+f,'utf8'),ctx);
-const data=vm.runInContext('({zones,cropData,productData,pestData,CROP_EXTRA,CROP_IMAGES,PRODUCT_EXTRA,IPM,SOURCES,diseases,INDOOR_PLANTS,LIBRARY_SOURCES,CROP_GUIDES,PEST_GUIDES,PHOTO_CREDITS})',ctx);
+for(const f of ['cropData.js','productData.js','pestData.js','data.js','libraryData.js','guideData.js','learningData.js'])vm.runInContext(readFileSync(''+f,'utf8'),ctx);
+const data=vm.runInContext('({zones,cropData,productData,pestData,CROP_EXTRA,CROP_IMAGES,PRODUCT_EXTRA,IPM,SOURCES,diseases,INDOOR_PLANTS,LIBRARY_SOURCES,CROP_GUIDES,PEST_GUIDES,PHOTO_CREDITS,RICE_VARIETIES,BIO_LIBRARY,ROOFTOP_GUIDE,RICE_EXTRA_SECTIONS,LEARNING_TOPICS,APP_REFERENCES})',ctx);
 assert.equal(data.zones.length,30);
 assert.equal(data.zones.reduce((n,z)=>n+z.area,0),14486278);
 data.zones.forEach((z,i)=>{assert.equal(z.id,i+1);for(const k of ['name','districts','soil'])for(const l of ['en','bn'])assert(z[k][l]?.length>2,`${z.id}.${k}.${l}`);assert(z.land[1]>0&&z.land[1]<=100);});
@@ -55,3 +55,35 @@ for(const [id,g] of Object.entries(data.PEST_GUIDES)){
 for(const [file,c] of Object.entries(data.PHOTO_CREDITS)){assert(existsSync(file),file);assert(c.page.startsWith('https://'));assert(/CC BY|CC0|Public domain/i.test(c.license));assert(c.author);}
 assert(app.includes('pest:()=>pestPage(id)'));
 console.log('Passed: 41 complete bilingual crop routes, 32 bilingual diagnostic routes, all crop photos, image licences and references.');
+
+assert.equal(data.RICE_VARIETIES.length,26);
+assert.equal(new Set(data.RICE_VARIETIES.map(v=>v.id)).size,26);
+assert.equal(data.RICE_VARIETIES.filter(v=>v.institution==='BINA').length,7);
+for(const v of data.RICE_VARIETIES){
+ for(const l of ['en','bn'])for(const k of ['name','duration','features'])assert(v[k][l]?.length>3,v.id+k+l);
+ assert(v.seasons.length&&v.seasons.every(s=>['aus','aman','boro'].includes(s)));
+ assert(/^https:\/\/(riceprofile\.brri\.gov\.bd|brri\.gov\.bd|knowledgebank-brri\.org|bina\.gov\.bd|objectstorage\.)/.test(v.source.url),v.source.url);
+}
+assert.equal(data.BIO_LIBRARY.items.length,14);
+assert.equal(new Set(data.BIO_LIBRARY.items.map(b=>b.id)).size,14);
+for(const b of data.BIO_LIBRARY.items){
+ assert(['microbial','botanical','beneficial','physical','contact'].includes(b.group));
+ for(const l of ['en','bn'])for(const k of ['name','targets','use','limits','storage'])assert(b[k][l]?.length>8,b.id+k+l);
+ assert(b.sources.length);for(const s of b.sources)assert(s.url.startsWith('https://'));
+ for(const k of b.pestKeys)assert(data.PEST_GUIDES[k],b.id+k);
+}
+assert.equal(data.ROOFTOP_GUIDE.sections.length,16);
+assert.equal(new Set(data.ROOFTOP_GUIDE.sections.map(s=>s.id)).size,16);
+for(const s of data.ROOFTOP_GUIDE.sections){for(const l of ['en','bn'])assert(s.title[l]&&s.text[l].length>50);assert(s.source.url.startsWith('https://'));}
+for(const id of data.ROOFTOP_GUIDE.starterCrops)assert(data.CROP_GUIDES[id],id);
+assert.equal(data.RICE_EXTRA_SECTIONS.length,8);
+assert.equal(data.CROP_GUIDES.rice.sections.length,16);
+assert.equal(data.APP_REFERENCES.length,3);
+assert(app.includes("'rice-varieties':riceVarietiesPage"));
+assert(app.indexOf('const riceSeasons=')<app.indexOf('\nrender();'));
+const normaliseCode=app.slice(app.indexOf('function normaliseLearning('),app.indexOf('\nfunction renderRiceVarieties('));
+vm.runInContext(normaliseCode,ctx);
+assert.equal(vm.runInContext("normaliseLearning('ব্রি৪৯')",ctx),'ব্রি 49');
+assert.equal(vm.runInContext("normaliseLearning('ব্রিধান৪৯')",ctx),'ব্রি ধান 49');
+assert.equal(vm.runInContext("normaliseLearning('BRRIDHAN49')",ctx),'brri dhan 49');
+console.log('Passed: 26 sourced rice varieties, 14 biological methods, 16 rooftop topics, 8 extra rice chapters, bilingual fields and linked routes.');
