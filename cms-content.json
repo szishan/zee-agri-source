@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "824265972e851c5ca4729dff0f253a4a52f093ea45ec0d6c308d0a363afb0056",
-  "publishedAt": "2026-11-15T09:24:11.507Z",
+  "revision": "baa988cc388d3501c13cf7f4fa27ab0c2176ac5f7bac8f1a30a07359547c698f",
+  "publishedAt": "2026-11-15T09:42:25.425Z",
   "entries": [
     {
       "id": "aez-1",
@@ -10,7 +10,7 @@
       "status": "published",
       "category": "piedmont",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পুরাতন হিমালয় পাদভূমি",
@@ -55,7 +55,7 @@
       "status": "published",
       "category": "river",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সক্রিয় গঙ্গা প্লাবনভূমি",
@@ -100,7 +100,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উচ্চ গঙ্গা নদী প্লাবনভূমি",
@@ -145,7 +145,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নিম্ন গঙ্গা নদী প্লাবনভূমি",
@@ -190,7 +190,7 @@
       "status": "published",
       "category": "coast",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "গঙ্গা জোয়ারভাটা প্লাবনভূমি",
@@ -235,7 +235,7 @@
       "status": "published",
       "category": "basin",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "গোপালগঞ্জ-খুলনা বিলাঞ্চল",
@@ -280,7 +280,7 @@
       "status": "published",
       "category": "basin",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "আড়িয়াল বিল",
@@ -325,7 +325,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মধ্য মেঘনা নদী প্লাবনভূমি",
@@ -370,7 +370,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নিম্ন মেঘনা নদী প্লাবনভূমি",
@@ -415,7 +415,7 @@
       "status": "published",
       "category": "coast",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নবীন মেঘনা মোহনা প্লাবনভূমি",
@@ -460,7 +460,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পুরাতন মেঘনা মোহনা প্লাবনভূমি",
@@ -505,7 +505,7 @@
       "status": "published",
       "category": "river",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সক্রিয় তিস্তা প্লাবনভূমি",
@@ -550,7 +550,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পূর্ব সুরমা-কুশিয়ারা প্লাবনভূমি",
@@ -595,7 +595,7 @@
       "status": "published",
       "category": "basin",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সিলেট অববাহিকা",
@@ -640,7 +640,7 @@
       "status": "published",
       "category": "piedmont",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উত্তর ও পূর্ব পাদভূমি সমভূমি",
@@ -685,7 +685,7 @@
       "status": "published",
       "category": "coast",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "চট্টগ্রাম উপকূলীয় সমভূমি",
@@ -730,7 +730,7 @@
       "status": "published",
       "category": "island",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সেন্টমার্টিন প্রবাল দ্বীপ",
@@ -775,7 +775,7 @@
       "status": "published",
       "category": "terrace",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সমতল বরেন্দ্রভূমি",
@@ -820,7 +820,7 @@
       "status": "published",
       "category": "terrace",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উচ্চ বরেন্দ্রভূমি",
@@ -865,7 +865,7 @@
       "status": "published",
       "category": "terrace",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উত্তর-পূর্ব বরেন্দ্রভূমি",
@@ -910,7 +910,7 @@
       "status": "published",
       "category": "terrace",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মধুপুর গড়",
@@ -955,7 +955,7 @@
       "status": "published",
       "category": "hills",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উত্তর ও পূর্ব পাহাড়ি অঞ্চল",
@@ -1000,7 +1000,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "তিস্তা সর্পিল প্লাবনভূমি",
@@ -1045,7 +1045,7 @@
       "status": "published",
       "category": "terrace",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "আখাউড়া সোপান",
@@ -1090,7 +1090,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "করতোয়া-বাঙ্গালী প্লাবনভূমি",
@@ -1135,7 +1135,7 @@
       "status": "published",
       "category": "basin",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নিম্ন আত্রাই অববাহিকা",
@@ -1180,7 +1180,7 @@
       "status": "published",
       "category": "basin",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নিম্ন পুনর্ভবা প্লাবনভূমি",
@@ -1225,7 +1225,7 @@
       "status": "published",
       "category": "river",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সক্রিয় ব্রহ্মপুত্র-যমুনা প্লাবনভূমি",
@@ -1270,7 +1270,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নবীন ব্রহ্মপুত্র-যমুনা প্লাবনভূমি",
@@ -1315,7 +1315,7 @@
       "status": "published",
       "category": "flood",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পুরাতন ব্রহ্মপুত্র প্লাবনভূমি",
@@ -1360,7 +1360,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "চালকুমড়া",
@@ -1414,7 +1414,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "করলা",
@@ -1468,7 +1468,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লাউ",
@@ -1522,7 +1522,7 @@
       "status": "published",
       "category": "brassica",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ব্রকলি",
@@ -1576,7 +1576,7 @@
       "status": "published",
       "category": "brassica",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "বাঁধাকপি",
@@ -1630,7 +1630,7 @@
       "status": "published",
       "category": "root",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "গাজর",
@@ -1684,7 +1684,7 @@
       "status": "published",
       "category": "brassica",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফুলকপি",
@@ -1738,7 +1738,7 @@
       "status": "published",
       "category": "fruit",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মরিচ",
@@ -1792,7 +1792,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধনেপাতা",
@@ -1846,7 +1846,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "শসা",
@@ -1900,7 +1900,7 @@
       "status": "published",
       "category": "fruit",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "বেগুন",
@@ -1954,7 +1954,7 @@
       "status": "published",
       "category": "bulb",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "রসুন",
@@ -2008,7 +2008,7 @@
       "status": "published",
       "category": "legume",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "শিম",
@@ -2062,7 +2062,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লেটুস",
@@ -2116,7 +2116,7 @@
       "status": "published",
       "category": "grain",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ভুট্টা",
@@ -2170,7 +2170,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পুঁইশাক",
@@ -2224,7 +2224,7 @@
       "status": "published",
       "category": "perennial",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সজিনা",
@@ -2278,7 +2278,7 @@
       "status": "published",
       "category": "fruit",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ঢেঁড়স",
@@ -2332,7 +2332,7 @@
       "status": "published",
       "category": "bulb",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পেঁয়াজ",
@@ -2386,7 +2386,7 @@
       "status": "published",
       "category": "perennial",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কাঁচা পেঁপে",
@@ -2440,7 +2440,7 @@
       "status": "published",
       "category": "legume",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মটরশুঁটি",
@@ -2494,7 +2494,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পটল",
@@ -2548,7 +2548,7 @@
       "status": "published",
       "category": "tuber",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "আলু",
@@ -2602,7 +2602,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T01:05:49.895Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কুমড়া",
@@ -2656,7 +2656,7 @@
       "status": "published",
       "category": "root",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মুলা",
@@ -2710,7 +2710,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লালশাক",
@@ -2764,7 +2764,7 @@
       "status": "published",
       "category": "rice",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধান",
@@ -2818,7 +2818,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ঝিঙে",
@@ -2872,7 +2872,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "চিচিঙ্গা",
@@ -2926,7 +2926,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পালংশাক",
@@ -2980,7 +2980,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কাঁকরোল",
@@ -3034,7 +3034,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধুন্দুল",
@@ -3088,7 +3088,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ডাঁটাশাক",
@@ -3142,7 +3142,7 @@
       "status": "published",
       "category": "tuber",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মিষ্টি আলু",
@@ -3196,7 +3196,7 @@
       "status": "published",
       "category": "tuber",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কচু",
@@ -3250,7 +3250,7 @@
       "status": "published",
       "category": "fruit",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "টমেটো",
@@ -3304,7 +3304,7 @@
       "status": "published",
       "category": "root",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "শালগম",
@@ -3358,7 +3358,7 @@
       "status": "published",
       "category": "leaf",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কলমিশাক",
@@ -3412,7 +3412,7 @@
       "status": "published",
       "category": "grain",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "গম",
@@ -3466,7 +3466,7 @@
       "status": "published",
       "category": "legume",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "বরবটি",
@@ -3520,7 +3520,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "জুকিনি",
@@ -3574,7 +3574,7 @@
       "status": "published",
       "category": "biological-management",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "১৪টি জৈব পদ্ধতি — বালাই অনুযায়ী জৈব পদ্ধতি",
@@ -3617,7 +3617,7 @@
       "status": "published",
       "category": "rice-cultivation",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধান চাষ — সুস্থ বীজ থেকে সংরক্ষিত ধান",
@@ -3671,7 +3671,7 @@
       "status": "published",
       "category": "rice-varieties",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T01:00:19.592Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নির্বাচিত ২৬টি জাত — মৌসুম ও জমি অনুযায়ী জাত বাছুন",
@@ -3714,7 +3714,7 @@
       "status": "published",
       "category": "rooftop-gardening",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "১৬টি ব্যবহারিক বিষয় — ধাপে ধাপে ছাদবাগান করুন",
@@ -3757,7 +3757,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "শনাক্ত ও পর্যবেক্ষণ",
@@ -3800,7 +3800,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পরিচর্যায় প্রতিরোধ",
@@ -3843,7 +3843,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উপকারী জীব সংরক্ষণ",
@@ -3886,7 +3886,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "যান্ত্রিক ও উদ্ভিদজাত ব্যবস্থা",
@@ -3929,7 +3929,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সিদ্ধান্ত, ব্যবস্থা ও মূল্যায়ন",
@@ -3972,7 +3972,7 @@
       "status": "published",
       "category": "site-page",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:17:09.293Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "আমার সম্পর্কে",
@@ -4026,7 +4026,7 @@
       "status": "published",
       "category": "site-page",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "যোগাযোগ",
@@ -4069,7 +4069,7 @@
       "status": "published",
       "category": "site-page",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:17:09.370Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কৃষক সহায়তা",
@@ -4112,15 +4112,15 @@
       "status": "published",
       "category": "site-page",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:42:22.553Z",
       "deletedAt": null,
       "name": {
         "bn": "হোম",
         "en": "Home"
       },
       "description": {
-        "bn": "ফসল, মাটি ও সবুজের পথে আপনার সঙ্গী। জানুন নির্ভরযোগ্য কৃষি তথ্য, প্রয়োজনীয় উপকরণ ও বিনামূল্যের কৃষি সহায়তা।",
-        "en": "Your companion for crops, soil and everything that grows. Explore trusted agriculture information, useful inputs and free farmer support."
+        "bn": "ফসলের তথ্য, চাষের নির্দেশিকা, পোকা ও রোগের লক্ষণ এবং কৃষি সহায়তা—সব এক জায়গায়।",
+        "en": "Crop information, growing guides, pest and disease symptoms, and farmer support — all in one place."
       },
       "season": {
         "bn": "",
@@ -4146,7 +4146,18 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "a0eaa51e-86bd-4dff-9670-2da529296dad",
+          "url": "https://zee-agri-live-content-jishan-20261115.savoryblossom1.chatgpt.site/api/images/a0eaa51e-86bd-4dff-9670-2da529296dad?v=1e464fb89bd150d0",
+          "name": "fields.jpg",
+          "alt": {
+            "bn": "সূর্যের আলোয় সবুজ কৃষিজমি",
+            "en": "Green agricultural fields in warm sunlight"
+          },
+          "credit": ""
+        }
+      ]
     },
     {
       "id": "pest-d0",
@@ -4155,7 +4166,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধানের ব্লাস্ট",
@@ -4209,7 +4220,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পাতা কোঁকড়ানো লক্ষণ",
@@ -4263,7 +4274,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধানের বাদামি দাগ রোগ",
@@ -4317,7 +4328,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধানের ব্যাকটেরিয়াজনিত পাতাপোড়া",
@@ -4371,7 +4382,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "আগাম ধসা রোগ",
@@ -4425,7 +4436,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "নাবি ধসা রোগ",
@@ -4479,7 +4490,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "চারা ঢলে পড়া / ড্যাম্পিং অফ",
@@ -4533,7 +4544,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পাউডারি মিলডিউ / সাদা গুঁড়া রোগ",
@@ -4587,7 +4598,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ডাউনি মিলডিউ",
@@ -4641,7 +4652,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ব্যাকটেরিয়াজনিত ঢলে পড়া",
@@ -4695,7 +4706,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "শিকড় ও গোড়া পচার লক্ষণ",
@@ -4749,7 +4760,7 @@
       "status": "published",
       "category": "disease",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ধানের খোলপোড়া রোগ",
@@ -4803,7 +4814,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "হলুদ কাণ্ড ছিদ্রকারী পোকা (স্টেম বোরার)",
@@ -4867,7 +4878,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "বাদামি গাছফড়িং (বিপিএইচ)",
@@ -4931,7 +4942,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কাটুই পোকা",
@@ -4985,7 +4996,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "থ্রিপস",
@@ -5039,7 +5050,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পাতা সুড়ঙ্গকারী মাছি",
@@ -5093,7 +5104,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লাল মাকড় / স্পাইডার মাইট",
@@ -5147,7 +5158,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মিলিবাগ / সাদা তুলাপোকা",
@@ -5201,7 +5212,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "স্কেল পোকা",
@@ -5255,7 +5266,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফাঙ্গাস ন্যাট / টবের ছোট মাছি",
@@ -5309,7 +5320,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফ্লি বিটল / লাফানো পাতাপোকা",
@@ -5363,7 +5374,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লুপার / পাতা খেকো শুককীট",
@@ -5417,7 +5428,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পাতা খেকো লেদাপোকা",
@@ -5471,7 +5482,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পাতা মোড়ানো পোকা (লিফ ফোল্ডার)",
@@ -5535,7 +5546,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "গন্ধি পোকা",
@@ -5599,7 +5610,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফল আর্মিওয়ার্ম",
@@ -5663,7 +5674,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সাদা মাছি (হোয়াইটফ্লাই)",
@@ -5727,7 +5738,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "জাব পোকা (এফিড)",
@@ -5791,7 +5802,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফলের মাছি",
@@ -5855,7 +5866,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "বেগুনের ডগা ও ফল ছিদ্রকারী পোকা",
@@ -5909,7 +5920,7 @@
       "status": "published",
       "category": "pest",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ডায়মন্ডব্যাক মথ",
@@ -5963,7 +5974,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "অ্যান্থুরিয়াম",
@@ -6017,7 +6028,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সাজানো টবের প্রদর্শনী",
@@ -6071,7 +6082,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লাকি ব্যাম্বু",
@@ -6125,7 +6136,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ক্যাকটাস",
@@ -6179,7 +6190,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফার্ন",
@@ -6233,7 +6244,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "লতানো গাছ / আইভির নমুনা",
@@ -6287,7 +6298,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "মনস্টেরা",
@@ -6341,7 +6352,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পিস লিলি",
@@ -6405,7 +6416,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "পথোস / মানিপ্ল্যান্ট",
@@ -6479,7 +6490,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "স্নেক প্ল্যান্ট",
@@ -6533,7 +6544,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "সাকুলেন্ট",
@@ -6587,7 +6598,7 @@
       "status": "published",
       "category": "indoor-plants",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "জেডজেড প্ল্যান্ট",
@@ -6641,7 +6652,7 @@
       "status": "published",
       "category": "biopesticides",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "জৈব বালাইনাশক",
@@ -6684,7 +6695,7 @@
       "status": "published",
       "category": "fruits",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ফলমূল ও শাকসবজি",
@@ -6727,7 +6738,7 @@
       "status": "published",
       "category": "indoor",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "ইনডোর গাছপালা",
@@ -6770,7 +6781,7 @@
       "status": "published",
       "category": "medicines",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "কৃষি ঔষধ",
@@ -6813,7 +6824,7 @@
       "status": "published",
       "category": "nutrients",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "উদ্ভিদ পুষ্টি",
@@ -6856,7 +6867,7 @@
       "status": "published",
       "category": "organic",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "জৈব সার",
@@ -6899,7 +6910,7 @@
       "status": "published",
       "category": "seedlings",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "চারা ও গাছ",
@@ -6942,7 +6953,7 @@
       "status": "published",
       "category": "seeds",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "বীজ",
@@ -6985,7 +6996,7 @@
       "status": "published",
       "category": "tissue",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-09T12:00:00.000Z",
+      "updatedAt": "2026-11-15T09:39:50.809Z",
       "deletedAt": null,
       "name": {
         "bn": "টিস্যু কালচার ও এমএস মিডিয়া",
