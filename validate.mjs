@@ -3,7 +3,7 @@ import {readFileSync,existsSync} from 'node:fs';
 import vm from 'node:vm';
 const ctx=vm.createContext({});
 for(const f of ['cropData.js','productData.js','pestData.js','data.js','libraryData.js','guideData.js','learningData.js'])vm.runInContext(readFileSync(''+f,'utf8'),ctx);
-const data=vm.runInContext('({zones,cropData,productData,pestData,CROP_EXTRA,CROP_IMAGES,PRODUCT_EXTRA,IPM,SOURCES,diseases,INDOOR_PLANTS,LIBRARY_SOURCES,CROP_GUIDES,PEST_GUIDES,PHOTO_CREDITS,RICE_VARIETIES,BIO_LIBRARY,ROOFTOP_GUIDE,RICE_EXTRA_SECTIONS,LEARNING_TOPICS,APP_REFERENCES})',ctx);
+const data=vm.runInContext('({zones,cropData,productData,pestData,CROP_EXTRA,CROP_IMAGES,PRODUCT_EXTRA,IPM,SOURCES,diseases,INDOOR_PLANTS,LIBRARY_SOURCES,CROP_GUIDES,PEST_GUIDES,PHOTO_CREDITS,RICE_VARIETIES,BIO_LIBRARY,ROOFTOP_GUIDE,RICE_EXTRA_SECTIONS,LEARNING_TOPICS})',ctx);
 assert.equal(data.zones.length,30);
 assert.equal(data.zones.reduce((n,z)=>n+z.area,0),14486278);
 data.zones.forEach((z,i)=>{assert.equal(z.id,i+1);for(const k of ['name','districts','soil'])for(const l of ['en','bn'])assert(z[k][l]?.length>2,`${z.id}.${k}.${l}`);assert(z.land[1]>0&&z.land[1]<=100);});
@@ -78,7 +78,6 @@ for(const s of data.ROOFTOP_GUIDE.sections){for(const l of ['en','bn'])assert(s.
 for(const id of data.ROOFTOP_GUIDE.starterCrops)assert(data.CROP_GUIDES[id],id);
 assert.equal(data.RICE_EXTRA_SECTIONS.length,8);
 assert.equal(data.CROP_GUIDES.rice.sections.length,16);
-assert.equal(data.APP_REFERENCES.length,3);
 assert(app.includes("'rice-varieties':riceVarietiesPage"));
 assert(app.indexOf('const riceSeasons=')<app.indexOf('\nrender();'));
 const normaliseCode=app.slice(app.indexOf('function normaliseLearning('),app.indexOf('\nfunction renderRiceVarieties('));

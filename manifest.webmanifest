@@ -1,0 +1,47 @@
+{
+  "id": "./",
+  "name": "Zee Agri",
+  "short_name": "Zee Agri",
+  "lang": "bn-BD",
+  "dir": "ltr",
+  "description": "বাংলা ও ইংরেজিতে ফসল, চাষের নির্দেশিকা, পোকা ও রোগ এবং কৃষি সহায়তা।",
+  "start_url": "./#home",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#174c38",
+  "background_color": "#f7f8f1",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ফসলের তথ্য",
+      "short_name": "ফসল",
+      "url": "./#crops"
+    },
+    {
+      "name": "চাষের নির্দেশিকা",
+      "short_name": "নির্দেশিকা",
+      "url": "./#guides"
+    }
+  ]
+}
