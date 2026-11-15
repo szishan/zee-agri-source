@@ -94,7 +94,13 @@
     const entry = { id: raw.id, section: raw.section, slug: slug(raw.slug || raw.id), category: String(raw.category || 'general').slice(0, 160), updatedAt: String(raw.updatedAt || ''), images: [], zoneNumber: Number(raw.zoneNumber) || null, areaHa: Number(raw.areaHa) || 0 };
     for (const key of localizedFields) entry[key] = localized(raw[key]);
     if (!entry.name.bn && !entry.name.en) throw new Error('Public entry has no name.');
-    for (const image of Array.isArray(raw.images) ? raw.images.slice(0, 40) : []) {
+    // Fill only the unchanged, originally empty image slot. A later Studio save,
+    // including an intentional image removal, remains authoritative.
+    const imageDefault = window.ZEE_AGRI_IMAGE_DEFAULTS?.[raw.id];
+    const imageSource = Array.isArray(raw.images) && raw.images.length === 0
+      && imageDefault?.expectedUpdatedAt === String(raw.updatedAt || '') && Array.isArray(imageDefault.images)
+      ? imageDefault.images : raw.images;
+    for (const image of Array.isArray(imageSource) ? imageSource.slice(0, 40) : []) {
       const url = safeURL(image?.url);
       if (url) entry.images.push({ id: String(image.id || ''), url, name: String(image.name || '').slice(0, 240), alt: localized(image.alt), credit: String(image.credit || '').slice(0, 2000) });
     }

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": "95052d05d1170d05316ff93ad9348f6c57b7fb05469b407e14287302877752d4",
-  "publishedAt": "2026-11-15T10:12:35.672Z",
+  "revision": "4ac81129c0832ff559c119ccc416d0e524976465359d7ec602fea71e39125fd6",
+  "publishedAt": "2026-11-15T16:20:23.675Z",
   "entries": [
     {
       "id": "aez-1",
@@ -2602,7 +2602,7 @@
       "status": "published",
       "category": "gourd",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T10:24:49.021Z",
       "deletedAt": null,
       "name": {
         "bn": "কুমড়া",
@@ -3574,7 +3574,7 @@
       "status": "published",
       "category": "biological-management",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "১৪টি জৈব পদ্ধতি — বালাই অনুযায়ী জৈব পদ্ধতি",
@@ -3608,7 +3608,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-afa794e618a745ed",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/neem-leaf-fruit.jpg",
+          "name": "neem-leaf-fruit.jpg",
+          "alt": {
+            "bn": "নিমগাছের সবুজ পাতা ও ফল",
+            "en": "Neem foliage and fruits"
+          },
+          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 203742,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "guide-rice-cultivation",
@@ -3671,7 +3685,7 @@
       "status": "published",
       "category": "rice-varieties",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "নির্বাচিত ২৬টি জাত — মৌসুম ও জমি অনুযায়ী জাত বাছুন",
@@ -3705,7 +3719,18 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "seed-media-e9fb97924336",
+          "url": "https://zee-agri-live-content-jishan-20261115.savoryblossom1.chatgpt.site/api/images/seed-media-e9fb97924336?v=b2344e875956d3b9",
+          "name": "rice.jpg",
+          "alt": {
+            "bn": "ধান",
+            "en": "Rice"
+          },
+          "credit": "Zee Agri"
+        }
+      ]
     },
     {
       "id": "guide-rooftop",
@@ -3714,7 +3739,7 @@
       "status": "published",
       "category": "rooftop-gardening",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "১৬টি ব্যবহারিক বিষয় — ধাপে ধাপে ছাদবাগান করুন",
@@ -3748,7 +3773,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-adced6bcb693bb5c",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/rooftop-container-garden.jpg",
+          "name": "rooftop-container-garden.jpg",
+          "alt": {
+            "bn": "ছাদে নানা টব ও পাত্রে সবজি ও গাছের বাগান",
+            "en": "A rooftop garden with vegetables and plants in assorted containers"
+          },
+          "credit": "Microrao · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Rootop_vegetable_garden.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 243772,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "ipm-step-1",
@@ -3757,7 +3796,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "শনাক্ত ও পর্যবেক্ষণ",
@@ -3791,7 +3830,18 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "seed-media-c200e04f7dcf",
+          "url": "https://zee-agri-live-content-jishan-20261115.savoryblossom1.chatgpt.site/api/images/seed-media-c200e04f7dcf?v=7dc636537d9a4e39",
+          "name": "yellow-stem-borer-1.jpg",
+          "alt": {
+            "bn": "হলুদ কাণ্ড ছিদ্রকারী পোকা (স্টেম বোরার)",
+            "en": "Yellow Stem Borer"
+          },
+          "credit": "Zee Agri"
+        }
+      ]
     },
     {
       "id": "ipm-step-2",
@@ -3800,7 +3850,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "পরিচর্যায় প্রতিরোধ",
@@ -3834,7 +3884,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-adced6bcb693bb5c",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/rooftop-container-garden.jpg",
+          "name": "rooftop-container-garden.jpg",
+          "alt": {
+            "bn": "ছাদে নানা টব ও পাত্রে সবজি ও গাছের বাগান",
+            "en": "A rooftop garden with vegetables and plants in assorted containers"
+          },
+          "credit": "Microrao · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Rootop_vegetable_garden.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 243772,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "ipm-step-3",
@@ -3843,7 +3907,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "উপকারী জীব সংরক্ষণ",
@@ -3877,7 +3941,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-84e0948c07aa125c",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/beneficial-ladybird.jpg",
+          "name": "beneficial-ladybird.jpg",
+          "alt": {
+            "bn": "জাবপোকার পাশে উপকারী লেডিবার্ড পোকা",
+            "en": "A beneficial ladybird beetle beside aphids"
+          },
+          "credit": "Bob Peterson · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ladybird,_The_Aphid_Shepherdess_(5544614022).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 270593,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "ipm-step-4",
@@ -3886,7 +3964,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "যান্ত্রিক ও উদ্ভিদজাত ব্যবস্থা",
@@ -3920,7 +3998,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-afa794e618a745ed",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/neem-leaf-fruit.jpg",
+          "name": "neem-leaf-fruit.jpg",
+          "alt": {
+            "bn": "নিমগাছের সবুজ পাতা ও ফল",
+            "en": "Neem foliage and fruits"
+          },
+          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 203742,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "ipm-step-5",
@@ -3929,7 +4021,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "সিদ্ধান্ত, ব্যবস্থা ও মূল্যায়ন",
@@ -3963,7 +4055,18 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "seed-media-e9fb97924336",
+          "url": "https://zee-agri-live-content-jishan-20261115.savoryblossom1.chatgpt.site/api/images/seed-media-e9fb97924336?v=b2344e875956d3b9",
+          "name": "rice.jpg",
+          "alt": {
+            "bn": "ধান",
+            "en": "Rice"
+          },
+          "credit": "Zee Agri"
+        }
+      ]
     },
     {
       "id": "page-about",
@@ -3972,7 +4075,7 @@
       "status": "published",
       "category": "site-page",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T10:23:40.858Z",
       "deletedAt": null,
       "name": {
         "bn": "আমার সম্পর্কে",
@@ -6652,7 +6755,7 @@
       "status": "published",
       "category": "biopesticides",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "জৈব বালাইনাশক",
@@ -6686,7 +6789,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-afa794e618a745ed",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/neem-leaf-fruit.jpg",
+          "name": "neem-leaf-fruit.jpg",
+          "alt": {
+            "bn": "নিমগাছের সবুজ পাতা ও ফল",
+            "en": "Neem foliage and fruits"
+          },
+          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 203742,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-fruits",
@@ -6695,7 +6812,7 @@
       "status": "published",
       "category": "fruits",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "ফলমূল ও শাকসবজি",
@@ -6729,7 +6846,34 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-3209e1ae3b0447ce",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/fruit-vegetable-market.jpg",
+          "name": "fruit-vegetable-market.jpg",
+          "alt": {
+            "bn": "বাজারে সাজানো ফল, সবজি ও কৃষিপণ্য",
+            "en": "Assorted fruit, vegetables and agricultural produce displayed at a market"
+          },
+          "credit": "Julian Hanslmaier (j_h) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Farmer%27s_Market_Produce_(Unsplash).jpg · https://creativecommons.org/publicdomain/zero/1.0/ · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 208755,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        },
+        {
+          "id": "photo-dd1a97963b4e1f28",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/bangladesh-pomegranate.jpg",
+          "name": "bangladesh-pomegranate.jpg",
+          "alt": {
+            "bn": "বাংলাদেশে গাছে ধরে থাকা ডালিম",
+            "en": "A pomegranate growing on a tree in Bangladesh"
+          },
+          "credit": "Shahnoor Habib Munmun · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Fruits_Bangladesh_(2).JPG · https://creativecommons.org/licenses/by/3.0/ · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 202377,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-indoor",
@@ -6738,7 +6882,7 @@
       "status": "published",
       "category": "indoor",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "ইনডোর গাছপালা",
@@ -6772,7 +6916,18 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "seed-media-f5968f0930c4",
+          "url": "https://zee-agri-live-content-jishan-20261115.savoryblossom1.chatgpt.site/api/images/seed-media-f5968f0930c4?v=4c5aa0d5ffbfe54d",
+          "name": "indoor-plants-studio.jpg",
+          "alt": {
+            "bn": "পথোস / মানিপ্ল্যান্ট",
+            "en": "Pothos / money plant"
+          },
+          "credit": "Zee Agri"
+        }
+      ]
     },
     {
       "id": "product-medicines",
@@ -6781,7 +6936,7 @@
       "status": "published",
       "category": "medicines",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "কৃষি ঔষধ",
@@ -6815,7 +6970,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-9d329e510b22cad5",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/tractor-field-sprayer.jpg",
+          "name": "tractor-field-sprayer.jpg",
+          "alt": {
+            "bn": "সবুজ ফসলের মাঠে ট্রাক্টরের সঙ্গে যুক্ত কৃষি স্প্রেয়ার—ফসল সুরক্ষার একটি দৃশ্য",
+            "en": "A tractor-mounted agricultural sprayer in a green crop field"
+          },
+          "credit": "Richard Humphrey · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Tractor_and_sprayer_working_near_Congham_-_geograph.org.uk_-_3419172.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 265827,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-nutrients",
@@ -6824,7 +6993,7 @@
       "status": "published",
       "category": "nutrients",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "উদ্ভিদ পুষ্টি",
@@ -6858,7 +7027,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-b4e452363c4f8396",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/plant-nutrients.jpg",
+          "name": "plant-nutrients.jpg",
+          "alt": {
+            "bn": "উদ্ভিদের পুষ্টি উপকরণের উদাহরণ হিসেবে ডিএপি সারের দানা",
+            "en": "Unbranded DAP fertilizer granules as an example of a plant nutrient input"
+          },
+          "credit": "Suyash Dwivedi · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DAP_(Diammonium_Phosphate)_Granules_(3).jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 132712,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-organic",
@@ -6867,7 +7050,7 @@
       "status": "published",
       "category": "organic",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "জৈব সার",
@@ -6901,7 +7084,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-b3de1f235d10bd9d",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/compost-municipal.jpg",
+          "name": "compost-municipal.jpg",
+          "alt": {
+            "bn": "প্রক্রিয়াজাত পরিণত কম্পোস্টের নমুনা",
+            "en": "Finished compost at a processing facility"
+          },
+          "credit": "Ckgurney · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Finished_Municipal_Compost_for_Resale_at_Recology%27s_Facility.jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 435711,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-seedlings",
@@ -6910,7 +7107,7 @@
       "status": "published",
       "category": "seedlings",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "চারা ও গাছ",
@@ -6944,7 +7141,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-02cb610662b0f7f1",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/nursery-seedlings-alternative.jpg",
+          "name": "nursery-seedlings-alternative.jpg",
+          "alt": {
+            "bn": "গ্রিনহাউসে চারা তৈরির ট্রে",
+            "en": "Seedling trays inside a greenhouse"
+          },
+          "credit": "TwHerbGrower · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Seedling_trays_in_the_greenhouse_at_Selvans_Social_Farm,_Daxi,_Taoyuan.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 445113,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-seeds",
@@ -6953,7 +7164,7 @@
       "status": "published",
       "category": "seeds",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "বীজ",
@@ -6987,7 +7198,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-6acf0f0c580f866d",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/sowing-seeds.jpg",
+          "name": "sowing-seeds.jpg",
+          "alt": {
+            "bn": "শিম, মটর, ভুট্টা ও অন্যান্য সবজির বপনযোগ্য বীজের নমুনা",
+            "en": "Assorted raw vegetable sowing seeds"
+          },
+          "credit": "Lynn Ketchum / Oregon State University · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Vegetable_seeds.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 260913,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     },
     {
       "id": "product-tissue",
@@ -6996,7 +7221,7 @@
       "status": "published",
       "category": "tissue",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:20:23.675Z",
       "deletedAt": null,
       "name": {
         "bn": "টিস্যু কালচার ও এমএস মিডিয়া",
@@ -7030,7 +7255,21 @@
         "bn": "",
         "en": ""
       },
-      "images": []
+      "images": [
+        {
+          "id": "photo-8530ba23a7247dac",
+          "url": "https://szishan.github.io/zee-agri-source/images/categories/tissue-culture-usda.jpg",
+          "name": "tissue-culture-usda.jpg",
+          "alt": {
+            "bn": "ল্যাবরেটরিতে পাত্রের মধ্যে টিস্যু কালচার করা গাছ",
+            "en": "Plant tissue cultures inside laboratory containers"
+          },
+          "credit": "USDA, Lance Cheung · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Plant_tissue_cultures,_National_Center_for_Genetic_Resources_Preservation,_USDA.jpg · https://creativecommons.org/licenses/by/2.0/ · Resized; original license retained",
+          "mimeType": "image/jpeg",
+          "size": 114820,
+          "createdAt": "2026-11-15T16:20:23.675Z"
+        }
+      ]
     }
   ]
 }
