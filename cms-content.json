@@ -1,7 +1,10 @@
 {
   "schemaVersion": 1,
-  "revision": "88250b4f6a914fdacdcb61412201a327397dfe781aec1967c6a5c5894096942c",
-  "publishedAt": "2026-11-16T03:00:23.086Z",
+  "revision": "a0b1cd6f3261f13af2e607f429628919d16b39cbdb61fd8d6734667e6aa665d5",
+  "publishedAt": "2026-11-16T03:16:09.334Z",
+  "contentLibraries": [
+    "insect-library-2026-11-15-v1"
+  ],
   "entries": [
     {
       "id": "aez-1",
@@ -1357,8 +1360,11 @@
       "id": "beneficial-braconid-wasp",
       "slug": "braconid-wasp",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ব্র্যাকোনিড পরজীবী বোলতা",
         "en": "Braconid parasitoid wasps"
@@ -1400,22 +1406,19 @@
             "bn": "পাতার ওপর ব্র্যাকোনিড পরিবারের বোলতা—পরিচিতিমূলক উদাহরণ",
             "en": "A braconid wasp on a leaf, illustrating the parasitoid family"
           },
-          "credit": "John Tann from Sydney, Australia · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Braconid_wasp_(6303316583).jpg · https://creativecommons.org/licenses/by/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 99361,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "John Tann from Sydney, Australia · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Braconid_wasp_(6303316583).jpg · https://creativecommons.org/licenses/by/2.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-damselfly",
       "slug": "damselfly",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "সরু ফড়িং / ড্যামসেলফ্লাই",
         "en": "Damselflies"
@@ -1457,22 +1460,19 @@
             "bn": "সরু দেহ ও গোটানো ডানাসহ Ceriagrion ড্যামসেলফ্লাই",
             "en": "A slender Ceriagrion damselfly with folded wings"
           },
-          "credit": "Joydeep · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Ceriagrion_coromandelianum_male_27052014_(1).jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 87067,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Joydeep · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Ceriagrion_coromandelianum_male_27052014_(1).jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-dragonfly",
       "slug": "dragonfly",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ফড়িং / ড্রাগনফ্লাই",
         "en": "Dragonflies"
@@ -1514,22 +1514,19 @@
             "bn": "ডানা ছড়িয়ে বসা Pantala flavescens ড্রাগনফ্লাই",
             "en": "A Pantala flavescens dragonfly resting with wings spread"
           },
-          "credit": "Jeevan Jose, Kerala, India · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Pantala_flavescens-Kadavoor-2017-05-04-002.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 124567,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Jeevan Jose, Kerala, India · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Pantala_flavescens-Kadavoor-2017-05-04-002.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-green-lacewing",
       "slug": "green-lacewing",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "সবুজ লেসউইং",
         "en": "Green lacewings"
@@ -1571,10 +1568,7 @@
             "bn": "স্বচ্ছ জাল-শিরাযুক্ত ডানাসহ পূর্ণাঙ্গ সবুজ লেসউইং",
             "en": "Adult green lacewing with transparent net-veined wings"
           },
-          "credit": "Didier Descouens · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:(MHNT)_Chrysoperla_carnea_-_dorsal_view.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 205001,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Didier Descouens · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:(MHNT)_Chrysoperla_carnea_-_dorsal_view.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         },
         {
           "id": "beneficial-photo-cfe1aa76d2a29f4c",
@@ -1584,22 +1578,19 @@
             "bn": "ফুলের ওপর শিকারি সবুজ লেসউইংয়ের শুককীট",
             "en": "Predatory green lacewing larva on flowers"
           },
-          "credit": "Didier Descouens · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:(MHNT)_Chrysoperla_carnea_on_Torilis_arvensis.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 164571,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Didier Descouens · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:(MHNT)_Chrysoperla_carnea_on_Torilis_arvensis.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-ground-beetle",
       "slug": "ground-beetle",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "শিকারি গ্রাউন্ড বিটল",
         "en": "Predatory ground beetles"
@@ -1641,22 +1632,19 @@
             "bn": "লালচে-কালো শিকারি Ophionea গ্রাউন্ড বিটল",
             "en": "A reddish and dark Ophionea predatory ground beetle"
           },
-          "credit": "Len Worthington · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ophionea_nigrofasciata_(Schmidt-Gobel,_1846)_Ground_Beetle_Carabidae_7_mm_Chaiyaphum_(16078733967).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 166776,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Len Worthington · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ophionea_nigrofasciata_(Schmidt-Gobel,_1846)_Ground_Beetle_Carabidae_7_mm_Chaiyaphum_(16078733967).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-honeybee",
       "slug": "honeybee",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "মৌমাছি—পরাগায়নের সহায়ক",
         "en": "Honeybees — crop pollinators"
@@ -1698,22 +1686,19 @@
             "bn": "ফুলে খাবার সংগ্রহ করছে এশীয় মৌমাছি",
             "en": "An Asian honeybee foraging at a flower"
           },
-          "credit": "Devilal · CC0 · https://commons.wikimedia.org/wiki/File:Indian_honey_bee_(Apis_cerana_indica)_IMG_9347.jpg · https://creativecommons.org/publicdomain/zero/1.0/deed.en · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 75246,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Devilal · CC0 · https://commons.wikimedia.org/wiki/File:Indian_honey_bee_(Apis_cerana_indica)_IMG_9347.jpg · https://creativecommons.org/publicdomain/zero/1.0/deed.en · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-hoverfly",
       "slug": "hoverfly",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "শিকারি হোভারফ্লাই / সিরফিড মাছি",
         "en": "Predatory hoverflies / syrphid flies"
@@ -1755,22 +1740,19 @@
             "bn": "ফুলের কাছে পূর্ণাঙ্গ সিরফিড হোভারফ্লাই",
             "en": "An adult syrphid hoverfly near flowers"
           },
-          "credit": "Hans Hillewaert · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Episyrphus_balteatus_(De_Haan).jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 85271,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Hans Hillewaert · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Episyrphus_balteatus_(De_Haan).jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-ladybird",
       "slug": "ladybird",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "শিকারি লেডিবার্ড / গুবরে পোকা",
         "en": "Predatory ladybird beetles"
@@ -1812,22 +1794,19 @@
             "bn": "জাবপোকার পাশে উপকারী লেডিবার্ড পোকা",
             "en": "A beneficial ladybird beetle beside aphids"
           },
-          "credit": "Bob Peterson · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ladybird,_The_Aphid_Shepherdess_(5544614022).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 270593,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Bob Peterson · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ladybird,_The_Aphid_Shepherdess_(5544614022).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-minute-pirate-bug",
       "slug": "minute-pirate-bug",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ওরিয়াস / ক্ষুদ্র শিকারি বাগ",
         "en": "Orius / minute pirate bugs"
@@ -1869,22 +1848,19 @@
             "bn": "শিকার ধরছে Orius ক্ষুদ্র শিকারি বাগ—পরিচিতিমূলক উদাহরণ",
             "en": "An Orius minute pirate bug taking prey, a representative photograph"
           },
-          "credit": "Orius_insidiosus_from_USDA_2.jpg: Photo by Jack Dykinga (uploaded by --gian_d 22:03, 15 March 2008 (UTC))\nderivative work: Anna Frodesiak (talk) · Public domain · https://commons.wikimedia.org/wiki/File:Orius_insidiosus_from_USDA_2_(cropped).jpg · https://commons.wikimedia.org/wiki/Template:PD-USGov-USDA · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 270837,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Orius_insidiosus_from_USDA_2.jpg: Photo by Jack Dykinga (uploaded by --gian_d 22:03, 15 March 2008 (UTC))\nderivative work: Anna Frodesiak (talk) · Public domain · https://commons.wikimedia.org/wiki/File:Orius_insidiosus_from_USDA_2_(cropped).jpg · https://commons.wikimedia.org/wiki/Template:PD-USGov-USDA · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-rice-mirid",
       "slug": "rice-mirid",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ধানের শিকারি মিরিড বাগ",
         "en": "Rice predatory mirid bug"
@@ -1926,22 +1902,19 @@
             "bn": "ধানের শিকারি মিরিড Cyrtorhinus lividipennis",
             "en": "Rice predatory mirid Cyrtorhinus lividipennis"
           },
-          "credit": "Jaya Rakesh · CC0 · https://commons.wikimedia.org/wiki/File:Cyrtorhinus_lividipennis.jpg · https://creativecommons.org/publicdomain/zero/1.0/deed.en · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 37777,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Jaya Rakesh · CC0 · https://commons.wikimedia.org/wiki/File:Cyrtorhinus_lividipennis.jpg · https://creativecommons.org/publicdomain/zero/1.0/deed.en · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-rove-beetle",
       "slug": "rove-beetle",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "পেডেরাস রোভ বিটল",
         "en": "Paederus rove beetles"
@@ -1983,22 +1956,19 @@
             "bn": "ছোট ডানার আবরণসহ Paederus fuscipes রোভ বিটল",
             "en": "Paederus fuscipes rove beetle with short wing covers"
           },
-          "credit": "Punlop Anusonpornperm · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Paederus_fuscipes_Curtis_01.jpg · https://creativecommons.org/licenses/by/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 109541,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Punlop Anusonpornperm · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Paederus_fuscipes_Curtis_01.jpg · https://creativecommons.org/licenses/by/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "beneficial-trichogramma",
       "slug": "trichogramma",
       "section": "pests",
-      "category": "beneficial",
       "status": "published",
+      "category": "beneficial",
+      "createdAt": "2026-11-16T00:00:00.000Z",
+      "updatedAt": "2026-11-16T00:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ট্রাইকোগ্রামা ডিম-পরজীবী বোলতা",
         "en": "Trichogramma egg parasitoids"
@@ -2040,15 +2010,9 @@
             "bn": "মথের ডিমের কাছে ক্ষুদ্র ট্রাইকোগ্রামা বোলতা—বড় করে তোলা ছবি",
             "en": "Magnified Trichogramma parasitoid beside moth eggs"
           },
-          "credit": "Dr Victor Fursov · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Female_of_Trichogramma_dendrolimi_on_egg_of_armyworm_(Noctuidae),_photo_was_taken_by_Dr_Victor_Fursov.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 104382,
-          "createdAt": "2026-11-16T00:00:00.000Z"
+          "credit": "Dr Victor Fursov · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Female_of_Trichogramma_dendrolimi_on_egg_of_armyworm_(Noctuidae),_photo_was_taken_by_Dr_Victor_Fursov.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-16T00:00:00.000Z",
-      "updatedAt": "2026-11-16T00:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "crop-ash-gourd",
@@ -4271,7 +4235,7 @@
       "status": "published",
       "category": "biological-management",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T16:34:51.962Z",
       "deletedAt": null,
       "name": {
         "bn": "১৪টি জৈব পদ্ধতি — বালাই অনুযায়ী জৈব পদ্ধতি",
@@ -4314,10 +4278,7 @@
             "bn": "নিমগাছের সবুজ পাতা ও ফল",
             "en": "Neem foliage and fruits"
           },
-          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 203742,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained"
         }
       ]
     },
@@ -4382,7 +4343,7 @@
       "status": "published",
       "category": "rice-varieties",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T16:34:52.394Z",
       "deletedAt": null,
       "name": {
         "bn": "নির্বাচিত ২৬টি জাত — মৌসুম ও জমি অনুযায়ী জাত বাছুন",
@@ -4436,7 +4397,7 @@
       "status": "published",
       "category": "rooftop-gardening",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T10:12:04.329Z",
+      "updatedAt": "2026-11-15T16:34:53.065Z",
       "deletedAt": null,
       "name": {
         "bn": "১৬টি ব্যবহারিক বিষয় — ধাপে ধাপে ছাদবাগান করুন",
@@ -4479,10 +4440,7 @@
             "bn": "ছাদে নানা টব ও পাত্রে সবজি ও গাছের বাগান",
             "en": "A rooftop garden with vegetables and plants in assorted containers"
           },
-          "credit": "Microrao · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Rootop_vegetable_garden.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 243772,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Microrao · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Rootop_vegetable_garden.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Resized; original license retained"
         }
       ]
     },
@@ -4493,7 +4451,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:34:53.447Z",
       "deletedAt": null,
       "name": {
         "bn": "শনাক্ত ও পর্যবেক্ষণ",
@@ -4547,7 +4505,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:34:53.628Z",
       "deletedAt": null,
       "name": {
         "bn": "পরিচর্যায় প্রতিরোধ",
@@ -4590,10 +4548,7 @@
             "bn": "ছাদে নানা টব ও পাত্রে সবজি ও গাছের বাগান",
             "en": "A rooftop garden with vegetables and plants in assorted containers"
           },
-          "credit": "Microrao · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Rootop_vegetable_garden.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 243772,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Microrao · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Rootop_vegetable_garden.jpg · https://creativecommons.org/licenses/by-sa/4.0/ · Resized; original license retained"
         }
       ]
     },
@@ -4604,7 +4559,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:34:53.817Z",
       "deletedAt": null,
       "name": {
         "bn": "উপকারী জীব সংরক্ষণ",
@@ -4647,10 +4602,7 @@
             "bn": "জাবপোকার পাশে উপকারী লেডিবার্ড পোকা",
             "en": "A beneficial ladybird beetle beside aphids"
           },
-          "credit": "Bob Peterson · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ladybird,_The_Aphid_Shepherdess_(5544614022).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 270593,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Bob Peterson · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ladybird,_The_Aphid_Shepherdess_(5544614022).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
       ]
     },
@@ -4661,7 +4613,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:34:54.007Z",
       "deletedAt": null,
       "name": {
         "bn": "যান্ত্রিক ও উদ্ভিদজাত ব্যবস্থা",
@@ -4704,10 +4656,7 @@
             "bn": "নিমগাছের সবুজ পাতা ও ফল",
             "en": "Neem foliage and fruits"
           },
-          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 203742,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained"
         }
       ]
     },
@@ -4718,7 +4667,7 @@
       "status": "published",
       "category": "ipm-principle",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:06.951Z",
       "deletedAt": null,
       "name": {
         "bn": "সিদ্ধান্ত, ব্যবস্থা ও মূল্যায়ন",
@@ -4963,8 +4912,11 @@
       "id": "pest-angoumois-grain-moth",
       "slug": "angoumois-grain-moth",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ধানের দানার মথ / অ্যাঙ্গুময়েস গ্রেইন মথ",
         "en": "Angoumois grain moth"
@@ -5006,22 +4958,19 @@
             "bn": "ধানের দানার মথ / অ্যাঙ্গুময়েস গ্রেইন মথ—পূর্ণাঙ্গ মথের পরিচিতিমূলক ছবি (Sitotroga cerealella)",
             "en": "Angoumois grain moth — adult moth reference photograph (Sitotroga cerealella)"
           },
-          "credit": "division, CSIRO · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10820_Sitotroga_cerealella_Angoumois_grain_moth.jpg · https://creativecommons.org/licenses/by/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 73334,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "division, CSIRO · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10820_Sitotroga_cerealella_Angoumois_grain_moth.jpg · https://creativecommons.org/licenses/by/3.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-coconut-rhinoceros-beetle",
       "slug": "coconut-rhinoceros-beetle",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "নারিকেলের গণ্ডার পোকা",
         "en": "Coconut rhinoceros beetle"
@@ -5063,15 +5012,9 @@
             "bn": "নারিকেলের গণ্ডার পোকা—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Oryctes rhinoceros)",
             "en": "Coconut rhinoceros beetle — adult insect reference photograph (Oryctes rhinoceros)"
           },
-          "credit": "oscaryin - 尹若宇 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Oryctes_rhinoceros_male.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 100335,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "oscaryin - 尹若宇 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Oryctes_rhinoceros_male.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-d0",
@@ -5725,8 +5668,11 @@
       "id": "pest-green-rice-leafhopper",
       "slug": "green-rice-leafhopper",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ধানের সবুজ পাতাফড়িং",
         "en": "Green rice leafhopper"
@@ -5768,22 +5714,19 @@
             "bn": "ধানের সবুজ পাতাফড়িং—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Nephotettix virescens)",
             "en": "Green rice leafhopper — adult insect reference photograph (Nephotettix virescens)"
           },
-          "credit": "Natasha Wright, Braman Termite & Pest Elimination, Bugwood.org · CC BY 3.0 us · https://commons.wikimedia.org/wiki/File:Green_leafhopper_(Nephotettix_virescens)_UGA5190052.jpg · https://creativecommons.org/licenses/by/3.0/us/deed.en · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 60902,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "Natasha Wright, Braman Termite & Pest Elimination, Bugwood.org · CC BY 3.0 us · https://commons.wikimedia.org/wiki/File:Green_leafhopper_(Nephotettix_virescens)_UGA5190052.jpg · https://creativecommons.org/licenses/by/3.0/us/deed.en · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-lesser-grain-borer",
       "slug": "lesser-grain-borer",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "শস্যের ছোট ছিদ্রকারী বিটল",
         "en": "Lesser grain borer"
@@ -5825,22 +5768,19 @@
             "bn": "শস্যের ছোট ছিদ্রকারী বিটল—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Rhyzopertha dominica)",
             "en": "Lesser grain borer — adult insect reference photograph (Rhyzopertha dominica)"
           },
-          "credit": "division, CSIRO · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10792_Rhyzopertha_dominica_Lesser_Grain_Borer.jpg · https://creativecommons.org/licenses/by/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 80474,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "division, CSIRO · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10792_Rhyzopertha_dominica_Lesser_Grain_Borer.jpg · https://creativecommons.org/licenses/by/3.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-mango-seed-weevil",
       "slug": "mango-seed-weevil",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "আমের আঁটির শুঁড়পোকা",
         "en": "Mango seed weevil"
@@ -5882,15 +5822,9 @@
             "bn": "আমের আঁটির শুঁড়পোকা—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Sternochetus mangiferae)",
             "en": "Mango seed weevil — adult insect reference photograph (Sternochetus mangiferae)"
           },
-          "credit": "PJeganathan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Mango_seed_weevil_1.jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 111082,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "PJeganathan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Mango_seed_weevil_1.jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-p0",
@@ -7056,8 +6990,11 @@
       "id": "pest-pulse-beetle",
       "slug": "pulse-beetle",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ডালের পোকা / পালস বিটল",
         "en": "Pulse beetle"
@@ -7099,22 +7036,19 @@
             "bn": "ডালের পোকা / পালস বিটল—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Callosobruchus chinensis)",
             "en": "Pulse beetle — adult insect reference photograph (Callosobruchus chinensis)"
           },
-          "credit": "Udo Schmidt · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Callosobruchus_chinensis_(Linn%C3%A9,_1758)_male.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 108676,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "Udo Schmidt · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Callosobruchus_chinensis_(Linn%C3%A9,_1758)_male.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-red-pumpkin-beetle",
       "slug": "red-pumpkin-beetle",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "লাল কুমড়া বিটল",
         "en": "Red pumpkin beetle"
@@ -7156,22 +7090,19 @@
             "bn": "লাল কুমড়া বিটল—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Aulacophora foveicollis)",
             "en": "Red pumpkin beetle — adult insect reference photograph (Aulacophora foveicollis)"
           },
-          "credit": "Sahadat247 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:WLE_2026_Bangladesh_Pumpkin_beetle_Aulacophora_foveicollis_on_leaf_by_Sahadat_Hossain.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 94809,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "Sahadat247 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:WLE_2026_Bangladesh_Pumpkin_beetle_Aulacophora_foveicollis_on_leaf_by_Sahadat_Hossain.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-rice-caseworm",
       "slug": "rice-caseworm",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ধানের চুঙ্গি পোকা / কেসওয়ার্ম",
         "en": "Rice caseworm"
@@ -7213,22 +7144,19 @@
             "bn": "ধানের চুঙ্গি পোকা / কেসওয়ার্ম—পূর্ণাঙ্গ মথের পরিচিতিমূলক ছবি (Parapoynx stagnalis)",
             "en": "Rice caseworm — adult moth reference photograph (Parapoynx stagnalis)"
           },
-          "credit": "LiCheng Shih · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Parapoynx_stagnalis_(10495542015).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 212206,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "LiCheng Shih · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Parapoynx_stagnalis_(10495542015).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-rice-hispa",
       "slug": "rice-hispa",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "ধানের হিসপা / কাঁটাযুক্ত পাতাপোকা",
         "en": "Rice hispa"
@@ -7270,22 +7198,19 @@
             "bn": "ধানের হিসপা / কাঁটাযুক্ত পাতাপোকা—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Dicladispa armigera)",
             "en": "Rice hispa — adult insect reference photograph (Dicladispa armigera)"
           },
-          "credit": "gbohne from Berlin, Germany · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Rice_Hispa_(6282950178).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 87341,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "gbohne from Berlin, Germany · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Rice_Hispa_(6282950178).jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "pest-rice-weevil",
       "slug": "rice-weevil",
       "section": "pests",
-      "category": "pest",
       "status": "published",
+      "category": "pest",
+      "createdAt": "2026-11-15T17:00:00.000Z",
+      "updatedAt": "2026-11-15T17:00:00.000Z",
+      "deletedAt": null,
       "name": {
         "bn": "চালের শুঁড়পোকা / রাইস উইভিল",
         "en": "Rice weevil"
@@ -7327,15 +7252,9 @@
             "bn": "চালের শুঁড়পোকা / রাইস উইভিল—পূর্ণাঙ্গ পোকার পরিচিতিমূলক ছবি (Sitophilus oryzae)",
             "en": "Rice weevil — adult insect reference photograph (Sitophilus oryzae)"
           },
-          "credit": "picture taken by Olaf Leillinger · CC BY-SA 2.5 · https://commons.wikimedia.org/wiki/File:Sitophilus.oryzae.7438.jpg · https://creativecommons.org/licenses/by-sa/2.5 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 100724,
-          "createdAt": "2026-11-15T17:00:00.000Z"
+          "credit": "picture taken by Olaf Leillinger · CC BY-SA 2.5 · https://commons.wikimedia.org/wiki/File:Sitophilus.oryzae.7438.jpg · https://creativecommons.org/licenses/by-sa/2.5 · Resized; original license retained"
         }
-      ],
-      "createdAt": "2026-11-15T17:00:00.000Z",
-      "updatedAt": "2026-11-15T17:00:00.000Z",
-      "deletedAt": null
+      ]
     },
     {
       "id": "plant-anthurium",
@@ -8022,7 +7941,7 @@
       "status": "published",
       "category": "biopesticides",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:07.176Z",
       "deletedAt": null,
       "name": {
         "bn": "জৈব বালাইনাশক",
@@ -8065,10 +7984,7 @@
             "bn": "নিমগাছের সবুজ পাতা ও ফল",
             "en": "Neem foliage and fruits"
           },
-          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 203742,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Kevinsooryan · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Azadirachta_indica,_leaves_%26_fruits.JPG · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained"
         }
       ]
     },
@@ -8079,7 +7995,7 @@
       "status": "published",
       "category": "fruits",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:07.412Z",
       "deletedAt": null,
       "name": {
         "bn": "ফলমূল ও শাকসবজি",
@@ -8122,10 +8038,7 @@
             "bn": "বাজারে সাজানো ফল, সবজি ও কৃষিপণ্য",
             "en": "Assorted fruit, vegetables and agricultural produce displayed at a market"
           },
-          "credit": "Julian Hanslmaier (j_h) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Farmer%27s_Market_Produce_(Unsplash).jpg · https://creativecommons.org/publicdomain/zero/1.0/ · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 208755,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Julian Hanslmaier (j_h) · CC0 1.0 · https://commons.wikimedia.org/wiki/File:Farmer%27s_Market_Produce_(Unsplash).jpg · https://creativecommons.org/publicdomain/zero/1.0/ · Resized; original license retained"
         },
         {
           "id": "photo-dd1a97963b4e1f28",
@@ -8135,10 +8048,7 @@
             "bn": "বাংলাদেশে গাছে ধরে থাকা ডালিম",
             "en": "A pomegranate growing on a tree in Bangladesh"
           },
-          "credit": "Shahnoor Habib Munmun · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Fruits_Bangladesh_(2).JPG · https://creativecommons.org/licenses/by/3.0/ · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 202377,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Shahnoor Habib Munmun · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Fruits_Bangladesh_(2).JPG · https://creativecommons.org/licenses/by/3.0/ · Resized; original license retained"
         }
       ]
     },
@@ -8149,7 +8059,7 @@
       "status": "published",
       "category": "indoor",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:07.632Z",
       "deletedAt": null,
       "name": {
         "bn": "ইনডোর গাছপালা",
@@ -8203,7 +8113,7 @@
       "status": "published",
       "category": "medicines",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:07.882Z",
       "deletedAt": null,
       "name": {
         "bn": "কৃষি ঔষধ",
@@ -8246,10 +8156,7 @@
             "bn": "সবুজ ফসলের মাঠে ট্রাক্টরের সঙ্গে যুক্ত কৃষি স্প্রেয়ার—ফসল সুরক্ষার একটি দৃশ্য",
             "en": "A tractor-mounted agricultural sprayer in a green crop field"
           },
-          "credit": "Richard Humphrey · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Tractor_and_sprayer_working_near_Congham_-_geograph.org.uk_-_3419172.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 265827,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Richard Humphrey · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Tractor_and_sprayer_working_near_Congham_-_geograph.org.uk_-_3419172.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
       ]
     },
@@ -8260,7 +8167,7 @@
       "status": "published",
       "category": "nutrients",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:08.123Z",
       "deletedAt": null,
       "name": {
         "bn": "উদ্ভিদ পুষ্টি",
@@ -8303,10 +8210,7 @@
             "bn": "উদ্ভিদের পুষ্টি উপকরণের উদাহরণ হিসেবে ডিএপি সারের দানা",
             "en": "Unbranded DAP fertilizer granules as an example of a plant nutrient input"
           },
-          "credit": "Suyash Dwivedi · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DAP_(Diammonium_Phosphate)_Granules_(3).jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 132712,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Suyash Dwivedi · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:DAP_(Diammonium_Phosphate)_Granules_(3).jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
       ]
     },
@@ -8317,7 +8221,7 @@
       "status": "published",
       "category": "organic",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:08.363Z",
       "deletedAt": null,
       "name": {
         "bn": "জৈব সার",
@@ -8360,10 +8264,7 @@
             "bn": "প্রক্রিয়াজাত পরিণত কম্পোস্টের নমুনা",
             "en": "Finished compost at a processing facility"
           },
-          "credit": "Ckgurney · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Finished_Municipal_Compost_for_Resale_at_Recology%27s_Facility.jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 435711,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Ckgurney · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Finished_Municipal_Compost_for_Resale_at_Recology%27s_Facility.jpg · https://creativecommons.org/licenses/by-sa/3.0 · Resized; original license retained"
         }
       ]
     },
@@ -8374,7 +8275,7 @@
       "status": "published",
       "category": "seedlings",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:17.925Z",
       "deletedAt": null,
       "name": {
         "bn": "চারা ও গাছ",
@@ -8417,10 +8318,7 @@
             "bn": "গ্রিনহাউসে চারা তৈরির ট্রে",
             "en": "Seedling trays inside a greenhouse"
           },
-          "credit": "TwHerbGrower · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Seedling_trays_in_the_greenhouse_at_Selvans_Social_Farm,_Daxi,_Taoyuan.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 445113,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "TwHerbGrower · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Seedling_trays_in_the_greenhouse_at_Selvans_Social_Farm,_Daxi,_Taoyuan.jpg · https://creativecommons.org/licenses/by-sa/4.0 · Resized; original license retained"
         }
       ]
     },
@@ -8431,7 +8329,7 @@
       "status": "published",
       "category": "seeds",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:18.158Z",
       "deletedAt": null,
       "name": {
         "bn": "বীজ",
@@ -8474,10 +8372,7 @@
             "bn": "শিম, মটর, ভুট্টা ও অন্যান্য সবজির বপনযোগ্য বীজের নমুনা",
             "en": "Assorted raw vegetable sowing seeds"
           },
-          "credit": "Lynn Ketchum / Oregon State University · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Vegetable_seeds.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 260913,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "Lynn Ketchum / Oregon State University · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Vegetable_seeds.jpg · https://creativecommons.org/licenses/by-sa/2.0 · Resized; original license retained"
         }
       ]
     },
@@ -8488,7 +8383,7 @@
       "status": "published",
       "category": "tissue",
       "createdAt": "2026-11-09T12:00:00.000Z",
-      "updatedAt": "2026-11-15T09:39:50.809Z",
+      "updatedAt": "2026-11-15T16:35:18.392Z",
       "deletedAt": null,
       "name": {
         "bn": "টিস্যু কালচার ও এমএস মিডিয়া",
@@ -8531,15 +8426,9 @@
             "bn": "ল্যাবরেটরিতে পাত্রের মধ্যে টিস্যু কালচার করা গাছ",
             "en": "Plant tissue cultures inside laboratory containers"
           },
-          "credit": "USDA, Lance Cheung · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Plant_tissue_cultures,_National_Center_for_Genetic_Resources_Preservation,_USDA.jpg · https://creativecommons.org/licenses/by/2.0/ · Resized; original license retained",
-          "mimeType": "image/jpeg",
-          "size": 114820,
-          "createdAt": "2026-11-15T16:20:23.675Z"
+          "credit": "USDA, Lance Cheung · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Plant_tissue_cultures,_National_Center_for_Genetic_Resources_Preservation,_USDA.jpg · https://creativecommons.org/licenses/by/2.0/ · Resized; original license retained"
         }
       ]
     }
-  ],
-  "contentLibraries": [
-    "insect-library-2026-11-15-v1"
   ]
 }
