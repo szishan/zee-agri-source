@@ -9,7 +9,7 @@
   const filters = new Map();
   const bi = (en, bn) => ({ en, bn });
   const labels = {
-    crops: bi('Crops', 'ফসল'), pests: bi('Pest & disease', 'পোকা ও রোগ'), ipm: bi('IPM', 'আইপিএম'),
+    crops: bi('Crops', 'ফসল'), pests: bi('Insects, allies & diseases', 'পোকা, উপকারী জীব ও রোগ'), ipm: bi('IPM', 'আইপিএম'),
     products: bi('Products & indoor plants', 'পণ্য ও ইনডোর গাছ'), aez: bi('Agro zones', 'কৃষি অঞ্চল'),
     guides: bi('Growing guides', 'চাষের নির্দেশিকা'), pages: bi('Pages', 'পাতা'),
     description: bi('Details', 'বিস্তারিত'), season: bi('Season', 'মৌসুম'), soil: bi('Soil & growing medium', 'মাটি ও চাষের মাধ্যম'),
@@ -19,7 +19,7 @@
   const categoryLabels = {
     cereal: bi('Cereals', 'দানাদার ফসল'), vegetable: bi('Vegetables', 'সবজি'), pulse: bi('Pulses', 'ডাল'),
     oilseed: bi('Oilseeds', 'তেলবীজ'), spice: bi('Spices', 'মসলা'), fruit: bi('Fruit', 'ফল'),
-    pest: bi('Pests & mites', 'পোকা ও মাকড়'), disease: bi('Diseases & symptoms', 'রোগ ও লক্ষণ'),
+    beneficial: bi('Beneficial insects & allies', 'উপকারী পোকা ও জীব'), pest: bi('Harmful pests & mites', 'ক্ষতিকর পোকা ও মাকড়'), disease: bi('Diseases & symptoms', 'রোগ ও লক্ষণ'),
     'indoor-plants': bi('Indoor plants', 'ইনডোর গাছ'), 'ipm-principle': bi('IPM principles', 'আইপিএমের ধাপ'),
     'rice-cultivation': bi('Rice cultivation', 'ধান চাষ'), 'rice-varieties': bi('Rice varieties', 'ধানের জাত'),
     'rooftop-gardening': bi('Rooftop gardening', 'ছাদবাগান'), 'biological-management': bi('Biological management', 'জৈব ব্যবস্থাপনা'),
@@ -34,6 +34,46 @@
   const slug = value => String(value || '').trim().toLowerCase().replace(/[^\p{L}\p{N}_-]+/gu, '-').replace(/^-+|-+$/g, '').slice(0, 140);
   const routePart = value => encodeURIComponent(String(value));
   const dateText = (value, lang) => { const date = new Date(value); return Number.isFinite(date.getTime()) ? new Intl.DateTimeFormat(language(lang) === 'bn' ? 'bn-BD' : 'en-GB', { dateStyle: 'medium' }).format(date) : ''; };
+
+  const pestSectors = {
+    beneficial: { category: 'beneficial', label: bi('Beneficial insects', 'উপকারী পোকা'), title: bi('Beneficial insects & natural allies', 'উপকারী পোকা ও অন্যান্য উপকারী জীব'), description: bi('Recognise their role, the pests they target and ways to conserve them.', 'ভূমিকা ও লক্ষ্য বালাই চিনুন, সংরক্ষণ ও সহায়তার উপায় জানুন।'), icon: '<path d="M16 29V15M16 22C5 23 4 11 5 8c10-1 15 4 11 14Zm0-7C15 5 24 2 29 4c1 9-4 14-13 11Z"/>' },
+    harmful: { category: 'pest', label: bi('Harmful pests', 'ক্ষতিকর পোকা'), title: bi('Harmful pests & mites', 'ক্ষতিকর পোকা ও মাকড়'), description: bi('Compare host crops, signs of damage, monitoring and management.', 'আক্রান্ত ফসল, ক্ষতির লক্ষণ, পর্যবেক্ষণ ও ব্যবস্থাপনা মিলিয়ে দেখুন।'), icon: '<path d="M11 10h10v12a5 5 0 0 1-10 0V10Zm2 0V6h6v4M5 13l6 3m10 0 6-3M5 22h6m10 0h6M8 29l5-5m6 0 5 5M16 11v15"/>' },
+    diseases: { category: 'disease', label: bi('Crop diseases', 'ফসলের রোগ'), title: bi('Crop diseases & symptoms', 'ফসলের রোগ ও লক্ষণ'), description: bi('Read identifying signs, field checks and supportive crop care.', 'শনাক্তের লক্ষণ, মাঠে যাচাই ও সহায়ক পরিচর্যা পড়ুন।'), icon: '<path d="M7 25C2 10 15 3 28 5c2 15-8 26-19 22M7 29 23 10"/><circle cx="12" cy="14" r="1.5"/><circle cx="19" cy="19" r="1.5"/>' },
+  };
+  const beneficialLabels = {
+    season: bi('Season & activity', 'সক্রিয়তার সময় ও মৌসুম'), soil: bi('Habitat & conditions', 'আবাস ও উপযোগী পরিবেশ'),
+    pestDisease: bi('Roles, targets & identification', 'ভূমিকা, লক্ষ্য বালাই ও শনাক্তকরণ'), ipm: bi('Conservation & support', 'সংরক্ষণ ও সহায়ক ব্যবস্থাপনা'), usage: bi('Observation & use', 'পর্যবেক্ষণ ও ব্যবহার নির্দেশনা'),
+  };
+  const pestLabels = {
+    description: bi('Identification & life cycle', 'পরিচিতি ও জীবনচক্র'), season: bi('Season & activity', 'মৌসুম ও সক্রিয়তার সময়'),
+    soil: bi('Habitat & conditions', 'আবাস ও অনুকূল পরিবেশ'), pestDisease: bi('Host crops, signs & damage', 'আক্রান্ত ফসল, লক্ষণ ও ক্ষতি'),
+    ipm: bi('IPM & supportive management', 'আইপিএম ও সহায়ক ব্যবস্থাপনা'), usage: bi('Management & use instructions', 'ব্যবস্থাপনা ও ব্যবহার নির্দেশনা'),
+  };
+  const diseaseLabels = { ...pestLabels, description: bi('Disease identification', 'রোগের পরিচিতি'), season: bi('Season & disease risk', 'মৌসুম ও রোগের ঝুঁকি'), soil: bi('Crop & environmental conditions', 'ফসল ও পরিবেশের অবস্থা') };
+  function fieldLabel(entry, key) {
+    if (entry.section !== 'pests') return labels[key];
+    const group = entry.category === 'beneficial' ? beneficialLabels : entry.category === 'disease' ? diseaseLabels : pestLabels;
+    return group[key] || labels[key];
+  }
+  const pestSectorFor = entry => Object.keys(pestSectors).find(key => pestSectors[key].category === entry.category) || 'all';
+  const normalizedName = raw => typeof raw?.name?.en === 'string' ? raw.name.en.normalize('NFKC').trim().replace(/\s+/g, ' ').toLocaleLowerCase() : '';
+  function publishedSource(payload) {
+    const library = window.ZEE_AGRI_PEST_LIBRARY;
+    if (!library || typeof library.version !== 'string' || !library.version || !Array.isArray(library.entries) || library.entries.length > 500
+      || Array.isArray(payload.contentLibraries) && payload.contentLibraries.includes(library.version)) return { entries: payload.entries, supplement: '' };
+    const ids = new Set(payload.entries.map(raw => raw?.id));
+    const keys = new Set(payload.entries.map(raw => `${raw?.section}/${slug(raw?.slug || raw?.id)}`));
+    const names = new Set(payload.entries.filter(raw => normalizedName(raw)).map(raw => `${raw?.section}/${normalizedName(raw)}`));
+    const entries = [...payload.entries];
+    for (const raw of library.entries) {
+      if (!raw || raw.section !== 'pests') continue;
+      const key = `${raw.section}/${slug(raw.slug || raw.id)}`, name = normalizedName(raw), nameKey = `${raw.section}/${name}`;
+      if (ids.has(raw.id) || keys.has(key) || name && names.has(nameKey)) continue;
+      ids.add(raw.id); keys.add(key); if (name) names.add(nameKey); entries.push(raw);
+    }
+    if (entries.length > 5000) throw new Error('Public library is too large.');
+    return { entries, supplement: library.version };
+  }
 
   function safeURL(value, externalOnly) {
     if (typeof value !== 'string') return '';
@@ -115,13 +155,14 @@
 
   function install(payload) {
     if (!payload || payload.schemaVersion !== 1 || !Array.isArray(payload.entries) || payload.entries.length > 5000) throw new Error('Invalid public feed.');
+    const source = publishedSource(payload);
     const ids = new Set();
-    const entries = payload.entries.filter(raw => raw?.status === 'published' && !raw.deletedAt).map(raw => {
+    const entries = source.entries.filter(raw => raw?.status === 'published' && !raw.deletedAt).map(raw => {
       const entry = normalize(raw);
       if (ids.has(entry.id)) throw new Error('Repeated public entry.');
       ids.add(entry.id); return entry;
     });
-    const revision = String(payload.revision || payload.publishedAt || JSON.stringify(payload.entries)).slice(0, 20000000);
+    const revision = (String(payload.revision || payload.publishedAt || JSON.stringify(payload.entries)) + (source.supplement ? '|library:' + source.supplement : '')).slice(0, 20000000);
     if (state.authoritative && revision === state.revision) return false;
     const routes = new Map();
     for (const entry of entries) {
@@ -160,8 +201,8 @@
   function unavailable(lang) {
     return `<div class="wrap cms-unavailable"><div class="page-top"><h1>${esc(text(bi('This information is unavailable', 'এই তথ্য এখন পাওয়া যাচ্ছে না'), lang))}</h1><p>${esc(text(bi('Explore the currently published information from the menu.', 'মেনু থেকে বর্তমানে প্রকাশিত তথ্য দেখুন।'), lang))}</p>${routeLink('home', text(bi('Home', 'হোম'), lang), 'btn secondary')}</div></div>`;
   }
-  function top(title, subtitle, lang, back) {
-    return `<div class="page-top"><div class="breadcrumb">${routeLink('home', text(bi('Home', 'হোম'), lang))}${back ? ` <span aria-hidden="true">›</span> ${routeLink(back, text(labels[back] || back, lang))}` : ''}</div><h1>${esc(title)}</h1>${subtitle ? `<p>${esc(subtitle)}</p>` : ''}</div>`;
+  function top(title, subtitle, lang, back, backTitle) {
+    return `<div class="page-top"><div class="breadcrumb">${routeLink('home', text(bi('Home', 'হোম'), lang))}${back ? ` <span aria-hidden="true">›</span> ${routeLink(back, text(backTitle || labels[back] || back, lang))}` : ''}</div><h1>${esc(title)}</h1>${subtitle ? `<p>${esc(subtitle)}</p>` : ''}</div>`;
   }
   function gallery(entry, lang) {
     if (!entry.images.length) return '';
@@ -169,7 +210,7 @@
   }
   function fields(entry, lang, compact, omitDescription) {
     let html = gallery(entry, lang);
-    for (const key of ['description', 'season', 'soil', 'pestDisease', 'ipm', 'usage', 'districts']) if (!(omitDescription && key === 'description')) html += field(text(labels[key], lang), text(entry[key], lang));
+    for (const key of ['description', 'season', 'soil', 'pestDisease', 'ipm', 'usage', 'districts']) if (!(omitDescription && key === 'description')) html += field(text(fieldLabel(entry, key), lang), text(entry[key], lang));
     if (entry.section === 'aez') html += field(text(bi('AEZ & mapped area', 'এইজেড ও মানচিত্রের আয়তন'), lang), `${text(bi('AEZ', 'এইজেড'), lang)} ${number(entry.zoneNumber, lang)} · ${number(entry.areaHa, lang)} ${text(bi('ha', 'হেক্টর'), lang)}`);
     if (!compact && entry.updatedAt) html += `<p class="guide-note cms-updated">${esc(text(bi('Last updated', 'সর্বশেষ সম্পাদনা'), lang))}: ${esc(dateText(entry.updatedAt, lang))}</p>`;
     return html;
@@ -200,15 +241,30 @@
     return entries.length ? `<div class="grid three cms-grid">${entries.map(e => card(e, lang)).join('')}</div>` : '';
   }
   function detail(entry, lang) {
-    const back = entry.section === 'pages' ? 'home' : entry.section;
+    const sector = entry.section === 'pests' ? pestSectorFor(entry) : 'all';
+    const back = entry.section === 'pages' ? 'home' : entry.section === 'pests' && sector !== 'all' ? 'pests/' + sector : entry.section;
+    const backTitle = entry.section === 'pests' && sector !== 'all' ? pestSectors[sector].label : undefined;
     const related = entry.section === 'products' && entry.legacyKey === 'indoor' ? collection('products').filter(e => e.isPlant) : [];
-    return `<div class="wrap cms-detail">${top(text(entry.name, lang), category(entry.category, lang), lang, back)}<div class="page-content detail-layout"><div class="stack">${fields(entry, lang)}${related.length ? `<section class="section"><h2>${esc(text(bi('Indoor plant collection', 'ইনডোর গাছের সংগ্রহ'), lang))}</h2><div class="grid three cms-grid">${sorted(related, 'name', lang).map(e => card(e, lang)).join('')}</div></section>` : ''}</div><aside class="stack"><section class="card card-pad"><h2>${esc(text(bi('Explore more', 'আরও জানুন'), lang))}</h2>${['guides', 'crops', 'pests', 'ipm', 'products', 'aez'].map(s => routeLink(s, text(labels[s], lang))).join('')}${routeLink('help', text(bi('Get farmer help', 'কৃষি সহায়তা নিন'), lang), 'btn full')}</section></aside></div></div>`;
+    return `<div class="wrap cms-detail">${top(text(entry.name, lang), category(entry.category, lang), lang, back, backTitle)}<div class="page-content detail-layout"><div class="stack">${fields(entry, lang)}${related.length ? `<section class="section"><h2>${esc(text(bi('Indoor plant collection', 'ইনডোর গাছের সংগ্রহ'), lang))}</h2><div class="grid three cms-grid">${sorted(related, 'name', lang).map(e => card(e, lang)).join('')}</div></section>` : ''}</div><aside class="stack"><section class="card card-pad"><h2>${esc(text(bi('Explore more', 'আরও জানুন'), lang))}</h2>${['guides', 'crops', 'pests', 'ipm', 'products', 'aez'].map(s => routeLink(s, text(labels[s], lang))).join('')}${routeLink('help', text(bi('Get farmer help', 'কৃষি সহায়তা নিন'), lang), 'btn full')}</section></aside></div></div>`;
   }
   function listResults(section, lang) {
     const filter = filters.get(section) || { query: '', category: '', sort: 'category' };
     const query = filter.query.trim().toLocaleLowerCase();
-    const entries = sorted(collection(section).filter(e => (!filter.category || e.category === filter.category) && (!query || JSON.stringify([e.name, e.description, e.category, e.season, e.soil, e.pestDisease, e.districts]).toLocaleLowerCase().includes(query))), filter.sort, lang);
+    const entries = sorted(collection(section).filter(e => (!filter.category || e.category === filter.category) && (section !== 'pests' || !filter.sector || filter.sector === 'all' || pestSectorFor(e) === filter.sector) && (!query || JSON.stringify([e.name, e.description, e.category, categoryLabels[e.category], e.season, e.soil, e.pestDisease, e.ipm, e.usage, e.districts]).toLocaleLowerCase().includes(query))), filter.sort, lang);
     return { count: entries.length, html: entries.length ? `<div class="grid three cms-grid">${entries.map(e => card(e, lang)).join('')}</div>` : `<div class="empty">${esc(text(bi('No results. Try another search or category.', 'কিছু পাওয়া যায়নি। অন্য নামে বা ধরনে খুঁজুন।'), lang))}</div>` };
+  }
+  function pestSectorNavigation(active, lang) {
+    const all = collection('pests');
+    return `<div class="cms-pest-navigation"><div class="cms-pest-nav-head"><h2>${esc(text(bi('Choose a group', 'পরিচিতির ধরন বাছুন'), lang))}</h2><a class="cms-pest-all ${active === 'all' ? 'is-active' : ''}" href="#pests"${active === 'all' ? ' aria-current="page"' : ''}>${esc(text(bi('All entries', 'সব পরিচিতি'), lang))}<span>${number(all.length, lang)}</span></a></div><nav class="cms-pest-sectors" aria-label="${esc(text(bi('Insect and disease groups', 'পোকা ও রোগের আলাদা বিভাগ'), lang))}">${Object.entries(pestSectors).map(([key, sector]) => `<a class="cms-pest-sector ${active === key ? 'is-active' : ''}" data-sector="${key}" href="#pests/${key}"${active === key ? ' aria-current="page"' : ''}><span class="cms-pest-sector-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${sector.icon}</svg></span><span class="cms-pest-sector-text"><strong>${esc(text(sector.label, lang))}</strong><small>${esc(text(sector.description, lang))}</small></span><span class="cms-pest-sector-count">${number(all.filter(entry => pestSectorFor(entry) === key).length, lang)}</span></a>`).join('')}</nav></div>`;
+  }
+  function pestListPage(active, lang) {
+    const filter = filters.get('pests') || { query: '', category: '', sort: 'name', sector: 'all' };
+    filter.sector = active; filter.category = ''; if (filter.sort === 'category') filter.sort = 'name'; filters.set('pests', filter);
+    const sector = pestSectors[active];
+    const title = sector ? sector.title : bi('Beneficial insects, harmful pests & diseases', 'উপকারী পোকা, ক্ষতিকর পোকা ও রোগ');
+    const description = sector ? sector.description : bi('Choose a group, identify what you see and open a card for the complete information.', 'আলাদা বিভাগ বেছে পরিচিতি দেখুন। বিস্তারিত তথ্যের জন্য একটি কার্ড খুলুন।');
+    const results = listResults('pests', lang);
+    return `<div class="wrap cms-list cms-pest-library" data-cms-list="pests" data-cms-language="${language(lang)}" data-cms-pest-sector="${active}">${top(text(title, lang), text(description, lang), lang)}<div class="page-content">${pestSectorNavigation(active, lang)}<div class="toolbar cms-toolbar cms-pest-toolbar"><label class="sr-only" for="cms-list-search">${esc(text(bi('Search names, crops, roles or symptoms', 'নাম, ফসল, ভূমিকা বা লক্ষণ খুঁজুন'), lang))}</label><input id="cms-list-search" type="search" data-cms-search value="${esc(filter.query)}" placeholder="${esc(text(bi('Name, crop, role or symptom…', 'নাম, ফসল, ভূমিকা বা লক্ষণ…'), lang))}"><label class="sr-only" for="cms-list-sort">${esc(text(bi('Sort', 'সাজান'), lang))}</label><select id="cms-list-sort" data-cms-sort>${[['name', bi('By name', 'নাম অনুযায়ী')], ['updated', bi('Recently updated', 'সর্বশেষ সম্পাদনা')]].map(([key, label]) => `<option value="${key}"${filter.sort === key ? ' selected' : ''}>${esc(text(label, lang))}</option>`).join('')}</select></div><p class="results-count" data-cms-count role="status">${number(results.count, lang)} ${esc(text(bi('entries', 'টি পরিচিতি'), lang))}</p><div data-cms-results>${results.html}</div></div></div>`;
   }
   function listPage(section, lang) {
     const filter = filters.get(section) || { query: '', category: '', sort: 'category' };
@@ -243,6 +299,7 @@
     const route = String(currentRoute || 'home').replace(/^#\/?/, '').replace(/\/+$/, '') || 'home';
     const [head, key] = route.split('/');
     if (['home', 'help', 'about', 'contact'].includes(head)) return page(head) ? null : unavailable(lang);
+    if (head === 'pests') return !key || key === 'all' ? pestListPage('all', lang) : Object.prototype.hasOwnProperty.call(pestSectors, key) ? pestListPage(key, lang) : unavailable(lang);
     if (head === 'aez' && !key) return null;
     if (sections.includes(head) && !key) return listPage(head, lang);
     if (head === 'rice-variety') return state.entries.some(e => e.id === 'guide-rice-varieties') ? null : unavailable(lang);
@@ -255,7 +312,7 @@
   function search(query = '', lang = 'en') {
     if (!state.authoritative) return null;
     const needle = String(query).trim().toLocaleLowerCase();
-    const results = sorted(state.entries.filter(e => !needle || JSON.stringify([e.name, e.description, e.season, e.soil, e.pestDisease, e.category, e.districts]).toLocaleLowerCase().includes(needle)), 'name', lang);
+    const results = sorted(state.entries.filter(e => !needle || JSON.stringify([e.name, e.description, e.season, e.soil, e.pestDisease, e.ipm, e.usage, e.category, categoryLabels[e.category], e.districts]).toLocaleLowerCase().includes(needle)), 'name', lang);
     return `<div class="mini-label cms-search-count">${number(results.length, lang)} ${esc(text(bi('results', 'টি ফলাফল'), lang))}</div>${results.length ? results.slice(0, 60).map(e => `<a class="search-result" href="#${esc(e.href)}" data-action="search-result"${e.section === 'aez' ? ` data-zone="${number(e.zoneNumber, 'en').replace(/,/g, '')}"` : ''}><strong>${esc(text(e.name, lang))}</strong><small>${esc(text(labels[e.section], lang))}</small></a>`).join('') : `<div class="empty">${esc(text(bi('No results. Try another term in Bangla or English.', 'কিছু পাওয়া যায়নি। বাংলা বা ইংরেজিতে অন্য শব্দ লিখুন।'), lang))}</div>`}`;
   }
 
